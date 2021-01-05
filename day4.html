@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY4 internal css & creating a simple web page</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .headder{
+            height: 100px;
+            width: 100%;
+            background-color:#333333;
+        }
+        .nav{
+            width: 80%;
+            margin: auto;
+            color: bisque;
+        }
+        .navlogo{
+            padding-top: 20px;
+            float: left;
+            width: 50%;
+
+        }
+        .logoimg{
+            height: 80px;
+            width: 80px;
+            position: relative;
+            display: inline;
+        }
+        .displayblock{
+            display: block;
+        }
+        .navlinks{
+            display: flex;
+            padding-top: 20px;
+            width: 50%;
+            float: right;
+            
+        }
+        .a{
+            color: rgb(243, 243, 243);
+            background-color: black;
+            padding: 20px;
+            text-decoration: none;
+
+        }
+        .a:hover{
+            color: rgb(248, 232, 0);
+        }
+        .contentwrapper{
+            width: 80%;
+            margin: auto;
+        }
+        .hero{
+            margin: auto;
+            padding: 10px;
+        }
+        .articles{
+            display: flex;
+            margin: 5px;
+            padding: 5px;
+        }
+        .articles img{
+            border: #333333 solid 1px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="headder">
+                <nav class="nav">
+                    <div class="navlogo">
+                        <!-- <img class="logoimg" src="img/logo.png" alt="It rebels logo"> -->
+                        <div class="displayblock">
+                            <h1>IT Rebels</h1>
+                            <h4>We Helps!</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="navlinks">
+                        <a class="a" href="#">Home</a>
+                        <a class="a" href="#">About</a>
+                        <a class="a" href="#">Contact</a>
+                        <a class="a" href="#">Gallery</a>
+                        <a class="a" href="#">Gallery</a>
+                        <a class="a" href="#">Gallery</a>
+                        
+                    </div>
+                </nav> 
+            </div>
+        </header>
+        <!-- header ends -->
+        <div>
+            <div class="contentwrapper">
+                 <div class="hero"> 
+                    <img src="img/960x360.gif" alt="960*360">
+                 </div>
+                 <div class="articles">
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                 </div>
+                 <div>
+                     <div></div>
+                     <div></div>
+                 </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
