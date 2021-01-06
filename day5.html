@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY5 continue- internal css & creating a simple web page</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .headder{
+            height: 100px;
+            width: 100%;
+            background-color:#333333;
+        }
+        .nav{
+            width: 80%;
+            margin: auto;
+            color: bisque;
+        }
+        .navlogo{
+            padding-top: 20px;
+            float: left;
+            width: 50%;
+
+        }
+        .logoimg{
+            height: 80px;
+            width: 80px;
+            position: relative;
+            display: inline;
+        }
+        .displayblock{
+            display: block;
+        }
+        .navlinks {
+            display: flex;
+            padding-top: 20px;
+            width: 50%;
+            float: right;
+            
+        }
+        .a{
+            color: rgb(243, 243, 243);
+            background-color: black;
+            padding: 20px;
+            text-decoration: none;
+
+        }
+        .a:hover{
+            color: rgb(248, 232, 0);
+        }
+        .contentwrapper{
+            width: 80%;
+            margin: auto;
+        }
+        .hero{
+            margin: auto;
+            padding: 10px;
+        }
+        .articles{
+            display: flex;
+            margin: 5px;
+            padding: 5px;
+        }
+        .articles img{
+            border: #333333 solid 1px;
+            padding: 5px;
+        }
+        .leftcon{
+            float: left;
+            width: 48%;
+            padding: 10px;
+        }
+        .rightcon{
+            float: right;
+            width: 48%;
+            padding: 10px;
+        }
+        .footer{
+            height: 50px;
+            width: 100%;
+            background-color: #333333;
+            color: aliceblue;
+            display: block;
+            overflow: hidden;
+        }
+        .copy{
+            display: inline;
+            width: 80%;!important
+            margin: auto;
+
+        }
+        .copy div p{
+            float: left;
+            width: 50%;
+        }
+        .copy div a{
+            float: right;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="headder">
+                <nav class="nav">
+                    <div class="navlogo">
+                        <!-- <img class="logoimg" src="img/logo.png" alt="It rebels logo"> -->
+                        <div class="displayblock">
+                            <h1>IT Rebels</h1>
+                            <h4>We Helps!</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="navlinks">
+                        <a class="a" href="#">Home</a>
+                        <a class="a" href="#">About</a>
+                        <a class="a" href="#">Contact</a>
+                        <a class="a" href="#">Gallery</a>
+                        <a class="a" href="#">Gallery</a>
+                        <a class="a" href="#">Gallery</a>
+                        
+                    </div>
+                </nav> 
+            </div>
+        </header>
+        <!-- header ends -->
+        <div>
+            <div class="contentwrapper">
+                 <div class="hero"> 
+                    <img src="img/960x360.gif" alt="960*360">
+                 </div>
+                 <div class="articles">
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                     <div>
+                        <img src="img/290x180.gif" alt="290*180">
+                        <h3>titles of our blog</h3>
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                 </div>
+                 <div >
+                     <div class="leftcon">
+                        <h2>Welcome rebels on day 5 of our html toturials</h2>
+                        <p>This is a W3C compliant free website template from OS Templates. For full terms of use of this template please read our website template licence.
+                            <br><hr><br>
+                            You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit free website templates.</p>
+                            <a href="#">read more>></a>
+                       
+                        </div>
+                     <div class="rightcon">
+                        <img src="img/450x250.gif" alt="450*250">
+                     </div>
+                     
+                 </div>
+                 
+                </div>
+            </div>
+            <div class="footer">
+                <footer class="copy">
+                  <div>
+                    <p>
+                    © IT Rebels 2021 | A test site to learn html  
+                </p>
+                  </div>
+                    <div>
+                        <nav>
+                            <a href="facebook.com"> f </a>
+                            <a href="instagram.com"> ig </a>
+                        </nav>
+                    </div>
+                   
+                </footer>
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
